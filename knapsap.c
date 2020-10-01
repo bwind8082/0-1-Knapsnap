@@ -9,7 +9,7 @@ int max(int a,int b)
     return b;
 }
 
-int main()
+void main()
 {
     int i,j,k=0,n,w,t;
     printf("enter weight capacity:");
@@ -85,6 +85,7 @@ while(x!=table[n+1][w+1])
     printf("weight of selected product is: ");
     for(i=0;i<k;i++)
     printf("%d ",z[i]);
+    printf("/nend");
     getch();
     
 }
